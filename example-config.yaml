@@ -360,6 +360,8 @@ bridge:
             # Beeper-specific: delete outbound sessions when hungryserv confirms
             # that the user has uploaded the key to key backup.
             delete_outbound_on_ack: false
+            # Don't store outbound sessions in the inbound table.
+            dont_store_outbound: false
             # Ratchet megolm sessions forward after decrypting messages.
             ratchet_on_decrypt: false
             # Delete fully used keys (index >= max_messages) after decrypting messages.
