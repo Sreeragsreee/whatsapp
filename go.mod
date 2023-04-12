@@ -16,7 +16,7 @@ require (
 	golang.org/x/net v0.8.0
 	google.golang.org/protobuf v1.28.1
 	maunium.net/go/maulogger/v2 v2.4.1
-	maunium.net/go/mautrix v0.15.1-0.20230407141116-e5aa88ba0f9d
+	maunium.net/go/mautrix v0.15.1-0.20230412114618-ad073fdc6ec7
 )
 
 require (
@@ -52,3 +52,5 @@ exclude (
 	github.com/prometheus/client_golang v1.12.1
 	google.golang.org/appengine v1.6.6
 )
+
+//replace maunium.net/go/mautrix => ../mautrix-go
